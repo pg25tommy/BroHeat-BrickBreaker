@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Component">
+      <UniqueIdentifier>{f25a14cc-914e-4a71-9fd3-f94fc7f8cf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public\Component">
+      <UniqueIdentifier>{1b7ff97b-2a9e-4e15-9aad-5d754a3fb7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public\Component\RenderComponent">
+      <UniqueIdentifier>{dc6fe629-8bd7-4889-ac44-4ac153b36faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Component\RenderComponent">
+      <UniqueIdentifier>{0fec2725-32ad-4033-a21d-44d74a93864a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public\GameObject">
+      <UniqueIdentifier>{0866c1d1-5427-4ae2-8b41-2ac9ca80d13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObject">
+      <UniqueIdentifier>{9a653fb1-728b-4eb0-85d1-72970fcf8737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Game.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Component\TransformComponent.h">
+      <Filter>Source Files\Game\Public\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Component.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameObject.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Utils.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Component\RenderComponent.h">
+      <Filter>Source Files\Game\Public\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Component\RenderComponent\CircleRenderComponent.h">
+      <Filter>Source Files\Game\Public\Component\RenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameObject\Ball.h">
+      <Filter>Source Files\Game\Public\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\Singletons\RenderEngine.h" />
+    <ClInclude Include="Game\Public\Component\PhysicsComponent.h" />
+    <ClInclude Include="Game\Public\Singletons\PhysicsEngine.h" />
+    <ClInclude Include="Game\Public\Component\PhysicsComponents\CircleColliderComponent.h" />
+    <ClInclude Include="Game\Public\Component\RenderComponent\BoxRenderComponent.h" />
+    <ClInclude Include="Game\Public\GameObject\Brick.h" />
+    <ClInclude Include="Game\Public\Component\PhysicsComponents\BoxColliderComponent.h" />
+    <ClInclude Include="Game\Public\GameObject\Boundary.h" />
+    <ClInclude Include="Game\Public\GameObject\BricksFactory.h" />
+    <ClInclude Include="Game\Public\GameObject\Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\TransformComponent.cpp">
+      <Filter>Source Files\Game\Private\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\RenderComponent.cpp">
+      <Filter>Source Files\Game\Private\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\RenderComponent\CircleRenderComponent.cpp">
+      <Filter>Source Files\Game\Private\Component\RenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject\Ball.cpp">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Singletons\RenderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\PhysicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Singletons\PhysicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\PhysicsComponents\CircleColliderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\RenderComponent\BoxRenderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject\Brick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Component\PhysicsComponents\BoxColliderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject\Boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject\BricksFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
